@@ -1,0 +1,815 @@
+{
+  "frames": [
+    {
+      "filename": "prisonerSprites_North00",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_North02",
+      "frame": {
+        "x": 0,
+        "y": 15,
+        "w": 14,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 1,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SW03",
+      "frame": {
+        "x": 0,
+        "y": 30,
+        "w": 14,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_South00",
+      "frame": {
+        "x": 0,
+        "y": 45,
+        "w": 14,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_South02",
+      "frame": {
+        "x": 0,
+        "y": 60,
+        "w": 14,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NE03",
+      "frame": {
+        "x": 0,
+        "y": 75,
+        "w": 13,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NW01",
+      "frame": {
+        "x": 0,
+        "y": 90,
+        "w": 13,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 3,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_East01",
+      "frame": {
+        "x": 0,
+        "y": 105,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_North01",
+      "frame": {
+        "x": 0,
+        "y": 120,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 1,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_North03",
+      "frame": {
+        "x": 0,
+        "y": 135,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_South01",
+      "frame": {
+        "x": 12,
+        "y": 105,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 1,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_South03",
+      "frame": {
+        "x": 13,
+        "y": 75,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 1,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_West03",
+      "frame": {
+        "x": 13,
+        "y": 90,
+        "w": 12,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 2,
+        "w": 12,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_East03",
+      "frame": {
+        "x": 12,
+        "y": 120,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 1,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NE00",
+      "frame": {
+        "x": 12,
+        "y": 135,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 1,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NE02",
+      "frame": {
+        "x": 23,
+        "y": 120,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NW00",
+      "frame": {
+        "x": 24,
+        "y": 105,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NW02",
+      "frame": {
+        "x": 23,
+        "y": 135,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SE00",
+      "frame": {
+        "x": 34,
+        "y": 120,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SE02",
+      "frame": {
+        "x": 34,
+        "y": 135,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SE03",
+      "frame": {
+        "x": 45,
+        "y": 135,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SW00",
+      "frame": {
+        "x": 14,
+        "y": 0,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SW01",
+      "frame": {
+        "x": 14,
+        "y": 15,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SW02",
+      "frame": {
+        "x": 14,
+        "y": 30,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_West01",
+      "frame": {
+        "x": 14,
+        "y": 45,
+        "w": 11,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 2,
+        "w": 11,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_East00",
+      "frame": {
+        "x": 14,
+        "y": 60,
+        "w": 10,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 10,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_East02",
+      "frame": {
+        "x": 24,
+        "y": 60,
+        "w": 10,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 10,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_West00",
+      "frame": {
+        "x": 25,
+        "y": 75,
+        "w": 10,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 10,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_West02",
+      "frame": {
+        "x": 25,
+        "y": 90,
+        "w": 10,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 1,
+        "w": 10,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_SE01",
+      "frame": {
+        "x": 25,
+        "y": 0,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 2,
+        "w": 14,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NE01",
+      "frame": {
+        "x": 25,
+        "y": 14,
+        "w": 11,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 2,
+        "w": 11,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "prisonerSprites_NW03",
+      "frame": {
+        "x": 25,
+        "y": 28,
+        "w": 11,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 3,
+        "w": 11,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 20
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "prisonerSprites.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 150,
+      "h": 150
+    },
+    "scale": 1
+  }
+}
