@@ -125,6 +125,7 @@
         this.load.image('door','assets/prisondoor.png')
         this.load.atlas('guard','assets/guardSprites.png', 'assets/guardSprites.json')
         this.load.image('tiles', 'assets/allMapTiles.png')
+        this.load.audio('mainMusic', ["assets/PrisonerSwapTheme.mp3"]);
         //this.load.image('tiles', 'assets/dungeonTiles.png')
     	this.load.tilemapTiledJSON('dungeon', 'assets/TutorialLevelMap.json')
         //this.load.tilemapTiledJSON('dungeon', 'assets/dungeons02.json')
@@ -175,13 +176,8 @@
     //wallsLayer.setCollisionByProperty({collides: true});
         this.physics.add.collider(playerList, wallsLayer);
 
-        //Create the platforms and the player character set to collide with the platforms
-       /*
-       createPlatforms(this);
-       this.physics.add.collider(playerList, platforms);
-       */
        //Create the guard characters
-       let guard1 = new Guard (this, )
+       //let guard1 = new Guard (this, )
 
        player = playerList[playerKey]
 
