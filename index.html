@@ -15,16 +15,22 @@
 
     var config = {
         type: Phaser.AUTO,
-        width: 1200,
-        height: 700,
+        width: 600,
+        height: 500,
         physics: {
             default: 'arcade',
+            arcade:{
+                debug:true
+            }
         },
 
         scene: {
             preload: preload,
             create: create,
             update: update,
+        },
+        scale: {
+            zoom: 2
         }
 
     };
@@ -118,6 +124,10 @@
         this.load.image('lockkey','assets/prisonkey.png')
         this.load.image('door','assets/prisondoor.png')
         this.load.atlas('guard','assets/guardSprites.png', 'assets/guardSprites.json')
+        this.load.image('tiles', 'assets/allMapTiles.png')
+        //this.load.image('tiles', 'assets/dungeonTiles.png')
+    	this.load.tilemapTiledJSON('dungeon', 'assets/TutorialLevelMap.json')
+        //this.load.tilemapTiledJSON('dungeon', 'assets/dungeons02.json')
     }
 
     function create()
@@ -148,18 +158,30 @@
 
        
        //Create the player characters
-       player1 = new Prisoner (this, 400, 500, 'prisoner', prisonerAnimations);
+       player1 = new Prisoner (this, 200, 300, 'prisoner', prisonerAnimations);
        playerList.push(player1);
-       player2 = new Cat (this, 200, 500, 'cat', catAnimations);
+       player2 = new Cat (this, 200, 200, 'cat', catAnimations);
        playerList.push(player2);
+    
+    //    this.add.image(0,0,'tiles')
+    //    Create the tilemap
+
+       const map = this.make.tilemap({ key: 'dungeon' });
+       const tileset = map.addTilesetImage('allMapTiles', 'tiles'); //Look at the Tiled tileset screen to see the name of the file
+       let wallsLayer = map.createLayer('Tile Layer 1', tileset); //Again look for layer name in Tiled
+       map.createLayer('Tile Layer 2', tileset);
+       map.createLayer('Tile Layer 3', tileset);
+       map.createLayer('Tile Layer 4', tileset);
+    //wallsLayer.setCollisionByProperty({collides: true});
+        this.physics.add.collider(playerList, wallsLayer);
 
         //Create the platforms and the player character set to collide with the platforms
+       /*
        createPlatforms(this);
        this.physics.add.collider(playerList, platforms);
-       
+       */
        //Create the guard characters
        let guard1 = new Guard (this, )
-
 
        player = playerList[playerKey]
 
@@ -187,18 +209,6 @@
        graphics = this.add.graphics();
     }
 
-    function createPlatforms(scene)
-    {
-        platforms = scene.physics.add.staticGroup();
-
-        //basePlatform is the floor of the game
-        let basePlatform = platforms.create(game.scale.width/2, game.scale.height-30, 'platform');
-        basePlatform.setScale(3, 1).refreshBody(); //scales the base platform in the x axis to cover the entire floor
-
-        platforms.create(250, 350, 'platform'); //creates the upper left platform
-        platforms.create(950, 500, 'platform'); //creates the bottome right platform
-    }
-
     function update()
     {
         //Player will not move in the x-axis unless a movement key is being pressed
@@ -215,18 +225,14 @@
     
 
     function movement() {
-        if (cursors.left.isDown)
-        {
+        if (cursors.left.isDown){
             player.setVelocityX(-1 * player.speed);
-        } else if (cursors.right.isDown)
-        {
+        } if (cursors.right.isDown){
             player.setVelocityX(player.speed);
-        } else if (cursors.up.isDown) {
+        } if (cursors.up.isDown) {
             player.setVelocityY(-1 * player.speed);
-        } else if (cursors.down.isDown) {
+        } if (cursors.down.isDown) {
             player.setVelocityY(player.speed)
-        } else {
-            playerList[1].play(playerList[1].animations['idle'], true);
         }
     }
 
