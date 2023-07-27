@@ -108,22 +108,30 @@
     let camera
     var gui;
     var guiTimer;
+        
+    let mainMusic;
 
     function preload()
     {
         this.load.image('sky', 'assets/clouds.png');
         this.load.image('platform', 'assets/platform.png');
-        this.load.atlas('cat','assets/catSprites.png', 'assets/catSprites.json')
-        this.load.atlas('prisoner','assets/prisonerSprites.png', 'assets/prisonerSprites.json')
-        this.load.image('lockkey','assets/prisonkey.png')
-        this.load.image('door','assets/prisondoor.png')
-        this.load.atlas('guard','assets/guardSprites.png', 'assets/guardSprites.json')
+        this.load.atlas('cat','assets/catSprites.png', 'assets/catSprites.json');
+        this.load.atlas('prisoner','assets/prisonerSprites.png', 'assets/prisonerSprites.json');
+        this.load.image('lockkey','assets/prisonkey.png');
+        this.load.image('door','assets/prisondoor.png');
+        this.load.atlas('guard','assets/guardSprites.png', 'assets/guardSprites.json');
+        this.load.audio('mainMusic', ["assets/PrisonerSwapTheme.mp3"]);
     }
 
     function create()
     {
         //Set the background origin to be at (0, 0) or top left corner of the image rather than the center of the image asset
        let background = this.add.tileSprite(0, 0, game.scale.width, game.scale.height, 'sky').setOrigin(0, 0);
+
+        // play main level music
+        mainMusic = this.sound.add('mainMusic');
+        mainMusic.loop = true;
+        mainMusic.play();
 
         let catAnimations = {};
         catAnimations['idle'] = this.anims.create({key: 'cat_idle', frames: this.anims.generateFrameNames('cat', {prefix: 'catSpritesFinal_Idle', end: 0, zeroPad: 2}), repeat: -1, frameRate: 10});
