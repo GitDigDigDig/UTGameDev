@@ -158,11 +158,6 @@
         guardAnimations['up'] = this.anims.create({key: 'prisoner_up', frames: this.anims.generateFrameNames('guard', {prefix: 'guardSprites_North', end: 0, zeroPad: 2}), repeat: -1, frameRate: 10});
 
        
-       //Create the player characters
-       player1 = new Prisoner (this, 200, 300, 'prisoner', prisonerAnimations);
-       playerList.push(player1);
-       player2 = new Cat (this, 200, 200, 'cat', catAnimations);
-       playerList.push(player2);
     
     //    this.add.image(0,0,'tiles')
     //    Create the tilemap
@@ -173,6 +168,14 @@
        map.createLayer('Tile Layer 2', tileset);
        map.createLayer('Tile Layer 3', tileset);
        map.createLayer('Tile Layer 4', tileset);
+
+        //Create the player characters
+       player1 = new Prisoner (this, 200, 300, 'prisoner', prisonerAnimations);
+       playerList.push(player1);
+       player2 = new Cat (this, 200, 200, 'cat', catAnimations);
+       playerList.push(player2);
+
+
     //wallsLayer.setCollisionByProperty({collides: true});
         this.physics.add.collider(playerList, wallsLayer);
 
@@ -203,6 +206,9 @@
 
        gui = this.add.text(500, 100, '', {fontSize: '32px', fill: '#000'});
        graphics = this.add.graphics();
+
+       const music = this.sound.add('mainMusic');
+        music.play();
     }
 
     function update()
